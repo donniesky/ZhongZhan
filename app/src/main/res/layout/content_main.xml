@@ -9,8 +9,8 @@
     android:clipToPadding="false"
     android:fitsSystemWindows="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="cn.studyjams.s1.sj35.zhongzhan.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:context=".ui.activity.MainActivity"
+    tools:showIn="@layout/activity_main">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,8 +27,7 @@
             android:layout_height="@dimen/space_200"
             android:layout_marginBottom="@dimen/space_4"
             android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="@dimen/space_4">
+            android:foreground="?android:attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -47,7 +46,7 @@
                     android:gravity="center_vertical"
                     android:lines="1"
                     android:padding="@dimen/space_5"
-                    android:text="我的生活里我是主角"
+                    android:text="@string/role"
                     android:textColor="@color/colorIconsText"
                     android:textSize="12sp"/>
 
@@ -69,8 +68,7 @@
                 android:layout_marginRight="@dimen/space_2"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/space_4">
+                android:foreground="?android:attr/selectableItemBackground">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -89,7 +87,7 @@
                         android:gravity="center_vertical"
                         android:lines="1"
                         android:padding="@dimen/space_5"
-                        android:text="要想改变世界，首先改变自己"
+                        android:text="@string/changes"
                         android:textColor="@color/colorIconsText"
                         android:textSize="12sp"/>
 
@@ -103,8 +101,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/space_4">
+                android:foreground="?android:attr/selectableItemBackground">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -123,7 +120,7 @@
                         android:gravity="center_vertical"
                         android:lines="1"
                         android:padding="@dimen/space_5"
-                        android:text="战胜自己，跟自己死磕到底"
+                        android:text="@string/fights"
                         android:textColor="@color/colorIconsText"
                         android:textSize="12sp"/>
 
@@ -147,8 +144,7 @@
                 android:layout_marginRight="@dimen/space_2"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/space_4">
+                android:foreground="?android:attr/selectableItemBackground">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -167,7 +163,7 @@
                         android:gravity="center_vertical"
                         android:lines="1"
                         android:padding="@dimen/space_5"
-                        android:text="不要把生命浪费在思考别人上"
+                        android:text="@string/think"
                         android:textColor="@color/colorIconsText"
                         android:textSize="12sp"/>
 
@@ -181,8 +177,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/space_4">
+                android:foreground="?android:attr/selectableItemBackground">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -201,7 +196,7 @@
                         android:gravity="center_vertical"
                         android:lines="1"
                         android:padding="@dimen/space_5"
-                        android:text="特立独行，做独一无二的你"
+                        android:text="@string/one"
                         android:textColor="@color/colorIconsText"
                         android:textSize="12sp"/>
 
