@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "694865288149",
+    "firebase_url": "https://brilliant-inferno-3052.firebaseio.com",
+    "project_id": "brilliant-inferno-3052",
+    "storage_bucket": "brilliant-inferno-3052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694865288149:android:1fbed7c208677b9c",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s1.sj35.zhongzhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694865288149-epet9kp8b71207bbp70qn71tf7gkb2tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cn.studyjams.s1.sj35.zhongzhan",
+            "certificate_hash": "B20C883DAA6AC6DD5A0A3623072AF156B171BDCC"
+          }
+        },
+        {
+          "client_id": "694865288149-d0alanups98lmdtufklsdlkjcigr27al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwnJNl_48ugQnsvnb-V117gyqoPDqreuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694865288149-d0alanups98lmdtufklsdlkjcigr27al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
